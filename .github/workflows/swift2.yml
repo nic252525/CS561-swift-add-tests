@@ -5,7 +5,7 @@ name: Swift
 
 on:
   push:
-    branches: [ "hanyun/add-tests" ]
+    branches: [ "main" ]
 
 jobs:
   build:
