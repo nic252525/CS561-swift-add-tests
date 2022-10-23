@@ -11,7 +11,7 @@ enum BaseUrl :String {
 }
 
 class WeatherServiceImpl: WeatherService {
-    let url = "\(BaseUrl.realServer.rawValue)?q=corvallis&units=imperial&appid=4d2aa9268f814e5ffacc718c2e5f6d2c"
+    let url = "\(BaseUrl.mockServer.rawValue)?q=corvallis&units=imperial&appid=4d2aa9268f814e5ffacc718c2e5f6d2c"
     //"https://api.openweathermap.org/data/2.5/weather?q=corvallis&units=imperial&appid=4d2aa9268f814e5ffacc718c2e5f6d2c"
 
     func getTemperature() async throws -> Int {
