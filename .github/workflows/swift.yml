@@ -23,4 +23,4 @@ jobs:
       run: swift build -v
     - name: Run tests
       working-directory: ./MyLibrary
-      run: swift test -v --filter MyIntegrationTest
+      run: swift test -v
