@@ -10,6 +10,6 @@ final class MyIntegrationTest: XCTestCase {
 
         let temp = try await WeaServ.getTemperature()
 
-        XCTAssertEqual(temp, 60)
+        XCTAssertEqual(temp, 302)
     }
 }
